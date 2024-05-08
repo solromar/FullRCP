@@ -1,0 +1,638 @@
+{
+    "data": {
+        "afectado": [
+            {
+                "administrador": false,
+                "deudor": true,
+                "inhabilitado": false,
+                "afectado": "JECAFERAN ENTERPRISES 15, S.L.",
+                "id": 8656,
+                "source": "rpc",
+                "identificador": "B87487393"
+            },
+            {
+                "administrador": false,
+                "deudor": true,
+                "inhabilitado": false,
+                "afectado": "JECAFERAN ENTERPRISES 15 SL",
+                "id": 111789,
+                "source": "rpc",
+                "identificador": "B87487393"
+            },
+            {
+                "administrador": false,
+                "deudor": true,
+                "inhabilitado": false,
+                "afectado": "JECAFERAN ENTERPRISES 15 SL EN LIQUIDACION",
+                "id": 55357,
+                "source": "rpc",
+                "identificador": "B87487393"
+            },
+            {
+                "administrador": false,
+                "deudor": true,
+                "inhabilitado": false,
+                "afectado": "JECAFERAN ENTERPRISES 15 SL EN LIQUIDACION",
+                "id": 715112,
+                "source": "concursal",
+                "identificador": "B87487393"
+            }
+        ],
+        "section1": [
+            {
+                "tipoResolucionProcesal": {
+                    "desTipoResoProcesales": "Informe de la Administración concursal",
+                    "id": 9,
+                    "orden": 11
+                },
+                "tipoSeccion": {
+                    "descripcion": "SECCION I",
+                    "id": 1
+                },
+                "tipoSentenciaFirme": {
+                    "desTipoSentenciaFirme": "No aplica",
+                    "id": 2
+                },
+                "numProcedimiento": "181/2018",
+                "juzgadoIri": {
+                    "nombreJuez": "JORGE ",
+                    "clbld": "51",
+                    "nombreJuezCompleto": "JORGE  MONTULL URQUIJO",
+                    "direccion": {
+                        "tipoDireccion": {
+                            "desTipoDireccion": "OFFICE",
+                            "id": 0
+                        },
+                        "ciudad": "MADRID",
+                        "codPais": "ES",
+                        "id": 16832,
+                        "provincia": {
+                            "desProvincia": "MADRID",
+                            "id": 28
+                        }
+                    },
+                    "apellidosJuez": "MONTULL URQUIJO",
+                    "id": 7926,
+                    "nombre": "MERCANTIL - 3"
+                },
+                "documentosConcursal": {
+                    "idEntidad": 26,
+                    "idTipoRegistro": 1,
+                    "idTramite": "WEB89536",
+                    "documentosAdjuntos": 1,
+                    "idMensajeEdoc": 67,
+                    "idTipoDocumento": 0,
+                    "rutaEdocumento": "/historico/filer/edoc/repositorioRPC/EDocumento/3/26/1/60003/WEB89536/6676.xml",
+                    "id": 6676,
+                    "idTipoEntidad": 3,
+                    "fechaRecepcion": "23/03/2019",
+                    "idRegistro": 60003
+                },
+                "contenidoEdicto": "SE HA RECIBIDO ESCRITO DE LA ADMON. CONCURSAL APORTANDO TEXTOS DEFINITIVOS",
+                "id": 4583,
+                "source": "rpc",
+                "fechaResolucion": "14/03/2019",
+                "deudorIri": {
+                    "fechaAlta": "23/03/2019",
+                    "id": 8465,
+                    "personaJuridica": {
+                        "tipoDocumento": {
+                            "desTipoDocumento": "CIF",
+                            "id": 2
+                        },
+                        "denominacion": "JECAFERAN ENTERPRISES 15, S.L.",
+                        "direccion": {
+                            "tipoDireccion": {
+                                "desTipoDireccion": "OFFICE",
+                                "id": 0
+                            },
+                            "ciudad": "MADRID",
+                            "codPais": "ES",
+                            "id": 16831
+                        },
+                        "id": 6825,
+                        "numeroDocumento": "B87487393",
+                        "nombre": "JECAFERAN ENTERPRISES 15, S.L."
+                    }
+                }
+            },
+            {
+                "tipoResolucionProcesal": {
+                    "desTipoResoProcesales": "Auto de aprobación del plan de liquidación",
+                    "id": 21,
+                    "orden": 21
+                },
+                "tipoSeccion": {
+                    "descripcion": "SECCION I",
+                    "id": 1
+                },
+                "tipoSentenciaFirme": {
+                    "desTipoSentenciaFirme": "Sin sentencia firme",
+                    "id": 0
+                },
+                "numProcedimiento": "181/2018",
+                "juzgadoIri": {
+                    "nombreJuez": "JORGE",
+                    "clbld": "51",
+                    "nombreJuezCompleto": "JORGE MONTULL URQUIJO",
+                    "direccion": {
+                        "tipoDireccion": {
+                            "desTipoDireccion": "OFFICE",
+                            "id": 0
+                        },
+                        "ciudad": "MADRID",
+                        "codPais": "ES",
+                        "id": 16834,
+                        "provincia": {
+                            "desProvincia": "MADRID",
+                            "id": 28
+                        }
+                    },
+                    "apellidosJuez": "MONTULL URQUIJO",
+                    "id": 7927,
+                    "nombre": "MERCANTIL - 3"
+                },
+                "documentosConcursal": {
+                    "idEntidad": 26,
+                    "idTipoRegistro": 1,
+                    "idTramite": "WEB89537",
+                    "documentosAdjuntos": 1,
+                    "idMensajeEdoc": 67,
+                    "idTipoDocumento": 0,
+                    "rutaEdocumento": "/historico/filer/edoc/repositorioRPC/EDocumento/3/26/1/60003/WEB89537/6677.xml",
+                    "id": 6677,
+                    "idTipoEntidad": 3,
+                    "fechaRecepcion": "23/03/2019",
+                    "idRegistro": 60003
+                },
+                "contenidoEdicto": "APROBACION PLAN DE LIQUIDACION",
+                "id": 4584,
+                "source": "rpc",
+                "fechaResolucion": "14/03/2019",
+                "deudorIri": {
+                    "fechaAlta": "23/03/2019",
+                    "id": 8466,
+                    "personaJuridica": {
+                        "tipoDocumento": {
+                            "desTipoDocumento": "CIF",
+                            "id": 2
+                        },
+                        "denominacion": "JECAFERAN ENTERPRISES 15, S.L.",
+                        "direccion": {
+                            "tipoDireccion": {
+                                "desTipoDireccion": "OFFICE",
+                                "id": 0
+                            },
+                            "ciudad": "MADRID",
+                            "codPais": "ES",
+                            "id": 16833
+                        },
+                        "id": 6826,
+                        "numeroDocumento": "B87487393",
+                        "nombre": "JECAFERAN ENTERPRISES 15, S.L."
+                    }
+                }
+            },
+            {
+                "tipoResolucionProcesal": {
+                    "desTipoResoProcesales": "Auto de conclusión de concurso",
+                    "id": 25,
+                    "orden": 25
+                },
+                "tipoSeccion": {
+                    "descripcion": "SECCION I",
+                    "id": 1
+                },
+                "tipoSentenciaFirme": {
+                    "desTipoSentenciaFirme": "Sin sentencia firme",
+                    "id": 0
+                },
+                "numProcedimiento": "181/2018",
+                "datosResolucionS1": {
+                    "ceseAdministradorConcursal": [],
+                    "tipoConcurso": {
+                        "desTipoConcurso": "Voluntario",
+                        "id": 0
+                    },
+                    "id": 28088,
+                    "autoConclusionConcurso": {
+                        "tipoCesaLimitFacuAdmin": {
+                            "desTipoCesaLimitFacuAdmin": "Sí",
+                            "id": 1
+                        },
+                        "id": 19226,
+                        "tipoConclusion": {
+                            "desTipoConclusion": "insuficiencia de la masa activa",
+                            "id": 5
+                        }
+                    },
+                    "nombraAdministradorConcursales": [],
+                    "tipoProcedimiento": {
+                        "desTipoProcedimiento": "Abreviado",
+                        "id": 1
+                    }
+                },
+                "juzgadoIri": {
+                    "nombreJuez": "D. JORGE",
+                    "clbld": "51",
+                    "nombreJuezCompleto": "D. JORGE MONTULL URQUIJO",
+                    "direccion": {
+                        "tipoDireccion": {
+                            "desTipoDireccion": "OFFICE",
+                            "id": 0
+                        },
+                        "ciudad": "Madrid",
+                        "codPais": "ES",
+                        "id": 230416,
+                        "provincia": {
+                            "desProvincia": "MADRID",
+                            "id": 28
+                        }
+                    },
+                    "apellidosJuez": "MONTULL URQUIJO",
+                    "id": 101735,
+                    "nombre": "MERCANTIL - 3"
+                },
+                "documentosConcursal": {
+                    "idEntidad": 27,
+                    "idTipoRegistro": 1,
+                    "idTramite": "WEB289392",
+                    "documentosAdjuntos": 0,
+                    "idMensajeEdoc": 67,
+                    "idTipoDocumento": 0,
+                    "rutaEdocumento": "/historico/filer/edoc/repositorioRPC/EDocumento/3/27/1/60003/WEB289392/90339.xml",
+                    "id": 90339,
+                    "idTipoEntidad": 3,
+                    "fechaRecepcion": "26/11/2020",
+                    "idRegistro": 60003
+                },
+                "contenidoEdicto": "Edicto",
+                "id": 59056,
+                "source": "rpc",
+                "fechaResolucion": "24/11/2020",
+                "deudorIri": {
+                    "fechaAlta": "26/11/2020",
+                    "id": 114808,
+                    "personaJuridica": {
+                        "tipoDocumento": {
+                            "desTipoDocumento": "CIF",
+                            "id": 2
+                        },
+                        "denominacion": "JECAFERAN ENTERPRISES 15 SL EN LIQUIDACION",
+                        "direccion": {
+                            "tipoDireccion": {
+                                "desTipoDireccion": "OFFICE",
+                                "id": 0
+                            },
+                            "ciudad": "Madrid",
+                            "calle": "C/ FRESNO DE CANTESPINO 15 - PORTAL G, PISO 2, PUERTA B",
+                            "codPais": "ES",
+                            "id": 230415,
+                            "provincia": {
+                                "desProvincia": "MADRID",
+                                "id": 28
+                            },
+                            "codPostal": 28051
+                        },
+                        "id": 83961,
+                        "numeroDocumento": "B87487393",
+                        "numeroRegistral": "8-618480",
+                        "nombre": "JECAFERAN ENTERPRISES 15 SL EN LIQUIDACION"
+                    }
+                }
+            }
+        ],
+        "section2": [
+            {
+                "libro": 0,
+                "tipoSentenciaFirme": {
+                    "desTipoSentenciaFirme": "No aplica",
+                    "id": 2
+                },
+                "tipoOperacion": {
+                    "desTipoOperacion": "Inscripción",
+                    "id": 0
+                },
+                "source": "concursal",
+                "tomo": 34384,
+                "fechaResolucion": "23/05/2018",
+                "deudorIri": {
+                    "personaJuridica": {
+                        "numeroDocumento": "B87487393",
+                        "nombre": "JECAFERAN ENTERPRISES 15 SL EN LIQUIDACION"
+                    }
+                },
+                "fechaInscripcion": "19/06/2018",
+                "hoja": "8-618480",
+                "tipoSeccion": {
+                    "id": 2
+                },
+                "numProcedimiento": "181/2018",
+                "datosResolucionS2": {
+                    "ceseAdministradorConcursal": [],
+                    "inhabAdministradorConcursal": {
+                        "inhabilitaciones": []
+                    },
+                    "nombraAdministradorConcursales": [
+                        {
+                            "tipoAtribucion": {
+                                "desAtribucion": "Administrador Concursal"
+                            },
+                            "tipoOrgano": {
+                                "desOrgano": "Administrador único"
+                            },
+                            "id": 110496,
+                            "personaJuridica": {
+                                "numeroDocumento": "16287762J",
+                                "nombre": "ORTIZ RODRIGUEZ GEMMA"
+                            },
+                            "fechaNombramiento": "23/05/2018",
+                            "tipoCondicion": {
+                                "desCondicion": "economista",
+                                "id": 3
+                            }
+                        }
+                    ]
+                },
+                "juzgadoIri": {
+                    "nombreJuez": "DON JORGE MONTULL URQUIJO",
+                    "numero": "3",
+                    "nombre": "JUZGADO DE LO MERCANTIL DE MADRID"
+                },
+                "documentosConcursal": {
+                    "idEntidad": 25,
+                    "idTipoRegistro": 1,
+                    "idTramite": "2111098877",
+                    "documentosAdjuntos": 0,
+                    "idMensajeEdoc": 67,
+                    "desRegistro": "REGISTRO MERCANTIL DE MADRID",
+                    "idTipoDocumento": 0,
+                    "rutaEdocumento": "/historico/filer/edoc/repositorioRPC/EDocumento/3/25/1/28065/2111098877/259180.xml",
+                    "id": 259180,
+                    "idTipoEntidad": 3,
+                    "fechaRecepcion": "19/06/2018",
+                    "idRegistro": 28065
+                },
+                "folio": 78,
+                "tipoResolucionConcursal": {
+                    "id": 18,
+                    "desTipoResoConcursales": " Nombramiento de Administrador concursal"
+                },
+                "cesaLimitaciones": false,
+                "id": 519899,
+                "numInscripcionAnotacion": "A",
+                "identificador": 103044113
+            },
+            {
+                "libro": 0,
+                "tipoSentenciaFirme": {
+                    "desTipoSentenciaFirme": "Con sentencia firme",
+                    "id": 1
+                },
+                "tipoOperacion": {
+                    "desTipoOperacion": "Inscripción",
+                    "id": 0
+                },
+                "source": "rpc",
+                "tomo": 34384,
+                "fechaResolucion": "24/11/2020",
+                "deudorIri": {
+                    "fechaAlta": "09/02/2021",
+                    "id": 129941,
+                    "personaJuridica": {
+                        "tipoDocumento": {
+                            "desTipoDocumento": "NIF",
+                            "id": 0
+                        },
+                        "denominacion": "JECAFERAN ENTERPRISES 15 SL",
+                        "direccion": {
+                            "tipoDireccion": {
+                                "desTipoDireccion": "OFFICE",
+                                "id": 0
+                            },
+                            "ciudad": "MADRID",
+                            "calle": "C/ FRESNO DE CANTESPINO 15 - PORTAL G, PISO 2, PUERTA B",
+                            "codPais": "ES",
+                            "id": 260707,
+                            "provincia": {
+                                "desProvincia": "MADRID",
+                                "id": 28
+                            },
+                            "codPostal": 28051
+                        },
+                        "id": 94118,
+                        "numeroDocumento": "B87487393",
+                        "numeroRegistral": "8-618480",
+                        "nombre": "JECAFERAN ENTERPRISES 15 SL "
+                    }
+                },
+                "nig": "2807900220180014210",
+                "parteDispositiva": "Se acuerda la conclusión del concurso por insuficiencia de masa activa, cancelando los asientos de la sociedad. ",
+                "fechaInscripcion": "09/02/2021",
+                "hoja": "8-618480",
+                "tipoSeccion": {
+                    "descripcion": "SECCION II",
+                    "id": 2
+                },
+                "numProcedimiento": "181/2018",
+                "datosResolucionS2": {
+                    "ceseAdministradorConcursal": [],
+                    "tipoConcurso": {
+                        "desTipoConcurso": "Voluntario",
+                        "id": 0
+                    },
+                    "id": 39863,
+                    "autoConclusionConcurso": {
+                        "tipoCesaLimitFacuAdmin": {
+                            "desTipoCesaLimitFacuAdmin": "No",
+                            "id": 0
+                        },
+                        "id": 21949,
+                        "tipoConclusion": {
+                            "desTipoConclusion": "insuficiencia de la masa activa",
+                            "id": 5
+                        }
+                    },
+                    "nombraAdministradorConcursales": [],
+                    "tipoProcedimiento": {
+                        "desTipoProcedimiento": "Abreviado",
+                        "id": 1
+                    }
+                },
+                "juzgadoIri": {
+                    "nombreJuez": "JORGE",
+                    "nombreJuezCompleto": "JORGE MONTULL URQUIJO",
+                    "direccion": {
+                        "tipoDireccion": {
+                            "desTipoDireccion": "OFFICE",
+                            "id": 0
+                        },
+                        "ciudad": "MADRID",
+                        "calle": "C/ Gran Vía, 52",
+                        "codPais": "ES",
+                        "id": 260708,
+                        "provincia": {
+                            "desProvincia": "MADRID",
+                            "id": 28
+                        }
+                    },
+                    "apellidosJuez": "MONTULL URQUIJO",
+                    "id": 114965,
+                    "nombre": "JUZGADO DE LO MERCANTIL NÚMERO 3 DE MADRID\n"
+                },
+                "documentosConcursal": {
+                    "idEntidad": 25,
+                    "idTipoRegistro": 1,
+                    "idTramite": "2113078846",
+                    "documentosAdjuntos": 1,
+                    "idMensajeEdoc": 67,
+                    "desRegistro": "REGISTRO MERCANTIL DE MADRID",
+                    "idTipoDocumento": 0,
+                    "rutaEdocumento": "/historico/filer/edoc/repositorioRPC/EDocumento/3/25/1/28065/2113078846/102427.xml",
+                    "id": 102427,
+                    "idTipoEntidad": 3,
+                    "fechaRecepcion": "09/02/2021",
+                    "idRegistro": 28065
+                },
+                "folio": 79,
+                "tipoResolucionConcursal": {
+                    "id": 11,
+                    "orden": 19,
+                    "desTipoResoConcursales": "Auto de conclusión de concurso"
+                },
+                "cesaLimitaciones": false,
+                "id": 47512,
+                "numInscripcionAnotacion": "3",
+                "identificador": 108046638
+            },
+            {
+                "libro": 0,
+                "tipoSentenciaFirme": {
+                    "desTipoSentenciaFirme": "No aplica",
+                    "id": 2
+                },
+                "tipoOperacion": {
+                    "desTipoOperacion": "Inscripción",
+                    "id": 0
+                },
+                "source": "rpc",
+                "tomo": 34384,
+                "fechaResolucion": "24/11/2020",
+                "deudorIri": {
+                    "fechaAlta": "09/02/2021",
+                    "id": 129942,
+                    "personaJuridica": {
+                        "tipoDocumento": {
+                            "desTipoDocumento": "NIF",
+                            "id": 0
+                        },
+                        "denominacion": "JECAFERAN ENTERPRISES 15 SL",
+                        "direccion": {
+                            "tipoDireccion": {
+                                "desTipoDireccion": "OFFICE",
+                                "id": 0
+                            },
+                            "ciudad": "MADRID",
+                            "calle": "C/ FRESNO DE CANTESPINO 15 - PORTAL G, PISO 2, PUERTA B",
+                            "codPais": "ES",
+                            "id": 260709,
+                            "provincia": {
+                                "desProvincia": "MADRID",
+                                "id": 28
+                            },
+                            "codPostal": 28051
+                        },
+                        "id": 94119,
+                        "numeroDocumento": "B87487393",
+                        "numeroRegistral": "8-618480",
+                        "nombre": "JECAFERAN ENTERPRISES 15 SL "
+                    }
+                },
+                "parteDispositiva": "Se acuerda la conclusión del concurso por insuficiencia de masa activa, cancelando los asientos de la sociedad. ",
+                "fechaInscripcion": "09/02/2021",
+                "hoja": "8-618480",
+                "tipoSeccion": {
+                    "descripcion": "SECCION II",
+                    "id": 2
+                },
+                "numProcedimiento": "181/2018",
+                "datosResolucionS2": {
+                    "ceseAdministradorConcursal": [
+                        {
+                            "fechaCese": "24/11/2020",
+                            "tipoAtribucion": {
+                                "desAtribucion": "Administrador Concursal",
+                                "id": 0
+                            },
+                            "personaNatural": {
+                                "apellidos": "ORTIZ RODRIGUEZ",
+                                "tipoDocumento": {
+                                    "desTipoDocumento": "NIF",
+                                    "id": 0
+                                },
+                                "id": 57491,
+                                "numeroDocumento": "16287762J",
+                                "nombreCompleto": "GEMMA ORTIZ RODRIGUEZ",
+                                "nombre": "GEMMA"
+                            },
+                            "id": 6643
+                        }
+                    ],
+                    "tipoConcurso": {
+                        "desTipoConcurso": "Voluntario",
+                        "id": 0
+                    },
+                    "id": 39864,
+                    "nombraAdministradorConcursales": [],
+                    "tipoProcedimiento": {
+                        "desTipoProcedimiento": "Abreviado",
+                        "id": 1
+                    }
+                },
+                "juzgadoIri": {
+                    "direccion": {
+                        "tipoDireccion": {
+                            "desTipoDireccion": "OFFICE",
+                            "id": 0
+                        },
+                        "ciudad": "MADRID",
+                        "calle": "C/ Gran Vía, 52",
+                        "codPais": "ES",
+                        "id": 260710,
+                        "provincia": {
+                            "desProvincia": "MADRID",
+                            "id": 28
+                        }
+                    },
+                    "id": 114966,
+                    "nombre": "JUZGADO DE LO MERCANTIL NÚMERO 3 DE MADRID\n"
+                },
+                "documentosConcursal": {
+                    "idEntidad": 25,
+                    "idTipoRegistro": 1,
+                    "idTramite": "2113078846",
+                    "documentosAdjuntos": 1,
+                    "idMensajeEdoc": 67,
+                    "desRegistro": "REGISTRO MERCANTIL DE MADRID",
+                    "idTipoDocumento": 0,
+                    "rutaEdocumento": "/historico/filer/edoc/repositorioRPC/EDocumento/3/25/1/28065/2113078846/102427.xml",
+                    "id": 102427,
+                    "idTipoEntidad": 3,
+                    "fechaRecepcion": "09/02/2021",
+                    "idRegistro": 28065
+                },
+                "folio": 79,
+                "tipoResolucionConcursal": {
+                    "id": 20,
+                    "orden": 6,
+                    "desTipoResoConcursales": "Cese de Administrador concursal"
+                },
+                "cesaLimitaciones": false,
+                "id": 47513,
+                "numInscripcionAnotacion": "3",
+                "identificador": 108121252
+            }
+        ],
+        "section3": []
+    }
+}
