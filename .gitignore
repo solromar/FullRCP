@@ -1,2 +1,16 @@
-venv/
+# Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+ENV/
+
+# Ignore all environments
+*.venv
+*.virtualenv
+*.env
+*.venv/
+*.virtualenv/
+*.env/
