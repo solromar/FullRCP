@@ -4,38 +4,30 @@ from classes.sectionClass import Section1
 
 afectado_dict = {}
 def procesar_afectado_from_json(afectado_data, section_data):
-    #print(type(afectado_data))
-    #print(afectado_data.keys()) 
-    #print(type(section_data))
-    #print(section_data.keys()) 
-    
-    # Extracción de la información de la persona
-    id = afectado_data.get('id')
     identificador = afectado_data.get('identificador')
-    afectado = afectado_data.get('afectado')
-    source = afectado_data.get('source', '')
-    administrador = afectado_data.get('administrador', False)
-    deudor = afectado_data.get('deudor', False)
-    inhabilitado = afectado_data.get('inhabilitado', False)
+    print(f"Procesando identificador: {identificador}")
 
-    # Creación de la instancia de Afectado
     if identificador not in afectado_dict:
         afectado = Afectado(
-            id=id,
+            id=afectado_data.get('id'),
             identificador=identificador,
-            afectado=afectado,
-            source=source,
-            administrador=administrador,
-            deudor=deudor,
-            inhabilitado=inhabilitado
+            afectado=afectado_data.get('afectado'),
+            source=afectado_data.get('source', ''),
+            administrador=afectado_data.get('administrador', False),
+            deudor=afectado_data.get('deudor', False),
+            inhabilitado=afectado_data.get('inhabilitado', False)
         )
         afectado_dict[identificador] = afectado
+        print("Nuevo afectado agregado.")
     else:
         afectado = afectado_dict[identificador]
+        print("Afectado existente utilizado.")
+    
+
+    
 
     # Creación de la instancia de Section y agregación a Afectado
     section_data = {
-        #'tipoResolucionProcesal': section_data.get('tipoResolucionProcesal', {}).get('desTipoResoProcesales', ''),
         'tipo_resolucion_procesal': section_data.get('tipoResolucionProcesal', {}).get('desTipoResoProcesales', ''),
         'tipo_sentencia_firme': section_data.get('tipoSentenciaFirme', {}).get('desTipoSentenciaFirme', ''),        
         'num_procedimiento': section_data.get('numProcedimiento', None),
